@@ -26,9 +26,14 @@ public class calculator {
       System.out.println("What is the second number you would like to mutilply with?");
       int mut2 = myObj.nextInt();  // Read user input
       int mut3 = mut1 * mut2;
-      System.out.println("Your answer is: " + mut1);
+      System.out.println("Your answer is: " + mut3);
     } else if (Calc == 4) {
-      System.out.println("yes good code");
+      System.out.println("What is the number you would like to divide?");
+      int div1 = myObj.nextInt();  // Read user input
+      System.out.println("What is the number you would like to divide by?");
+      int div2 = myObj.nextInt();  // Read user input
+      int div3 = div1 / div2;
+      System.out.println("Your answer is: " + div3);
     } else {
       System.out.println("Press 1 for Adding, 2 for Subtracting, 3 for Mutiplying, and 4 for Division.");
     }
