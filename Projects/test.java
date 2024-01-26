@@ -8,7 +8,7 @@ public class test {
       int var = 50;
       System.out.println(10*var);
       if (30 > 31) {
-        System.out.println("wrong");
+      System.out.println("wrong");
     } else if (30 < 29) {
       System.out.println("wrong again");
     } else {
