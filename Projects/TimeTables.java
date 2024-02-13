@@ -1,4 +1,5 @@
-    package Projects;
+package Projects;
+    
     import java.util.*;
 
     public class TimeTables {
